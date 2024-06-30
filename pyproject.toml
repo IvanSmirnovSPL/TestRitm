@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "TestForRitm"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Smirnov <i.smirnov@1440.space>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.9.0"
+numpy = "^2.0.0"
+tqdm = "^4.66.4"
+
+[tool.poetry.group.dev.dependencies]
+pathlib = "^1.0.1"
+matplotlib = "^3.9.0"
+numpy = "^2.0.0"
+tqdm = "^4.66.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
